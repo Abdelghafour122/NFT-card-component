@@ -13,34 +13,38 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="card">
+    <main>
+      <h1 class="sr-only"></h1>
       <div class="image">
         <img id="equ" src="./images/image-equilibrium.jpg" alt="equilibrium" />
       </div>
       <div class="text">
-        <h2>Equilibrium #3429</h2>
+        <h2><a href="#">Equilibrium #3429</a></h2>
         <p>Our Equilibrium collection promotes balance and calm.</p>
-        <div class="worth">
-          <span
-            ><img id="eth" src="./images/icon-ethereum.svg" alt="ETH" />0.041
-            ETH</span
-          >
-          <span
-            ><img id="clock" src="./images/icon-clock.svg" alt="Time" />3 days
-            left</span
-          >
-        </div>
-        <div class="avatar">
-          <img id="ava" src="./images/image-avatar.png" alt="Avatar" />
-          <span>Creation of <span>Jules Wyvern</span></span>
-        </div>
+        <ul class="worth">
+          <li>
+            <img
+              src="./images/icon-ethereum.svg"
+              alt=""
+              aria-hidden="true"
+            />0.041 ETH
+          </li>
+          <li>
+            <img src="./images/icon-clock.svg" alt="" aria-hidden="true" />3
+            days left
+          </li>
+        </ul>
+        <figure class="avatar">
+          <img id="ava" src="./images/image-avatar.png" alt="Jules Wyvern" />
+          <figcaption>Creation of <a href="#">Jules Wyvern</a></figcaption>
+        </figure>
       </div>
-    </div>
-    <div class="attribution">
+    </main>
+    <footer>
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Abdelghafour122</a>.
-    </div>
+    </footer>
   </body>
 </html>
